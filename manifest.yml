@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CISCO Watson IoT
+  host: CISCO-Watson-IoT
+  disk_quota: 1024M
+  services:
+  - Watson IoT Platform - CISCO IBM
+  - Watson Conversation - CISCO IBM
+  - dashDB - CISCO IBM
+  - Weather Company Data - CISCO IBM
+  - cloudantNoSQLDB - CISCO IBM
